@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online apply</title>
+    <link rel="stylesheet" href="class9.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <center>
+
+            <img src="PMHT.png" class="user">
+            <img src="g.png" class="user1">
+
+        </center>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><BR>
+        <form method="post" action="submit.php" enctype="multipart/form-data">
+
+        <div class="box"><br>
+            <center>
+                <b>Course Applied for:</b>
+
+                <select required name="course_applied">
+                    <option>Select</option>
+                    <option>Health Technician (Only for Male)</option>
+                    <option>Dispenser Course (Only for Male)</option>
+                    <option>Vaccinator Course</option>
+                    <option>Anesthesia Techncian</option>
+                    <option>Dialysis Techncian</option>
+                    <option>Physiotherapy Techncian</option>
+                    <option>NCU Techncian</option>
+                    <option>DSA Techncian</option>
+                    <option>ICU Techncian</option>
+                    <option>C-T Scan Techncian</option>
+                </select><br>
+                <font color="red"> <u>Note: Only Health Techncian duration is 18 Month & all other courses is 12 months
+                    </u><br><br></font>
+                <b>Academic Year:</b>
+                <select required name="academic_year">
+                    <option>Select</option>
+                    <option>2024-25</option>
+                </select><br><br>
+                <b>Upload your passport size Picture <font color="blue">(with blue background)</font></b><input
+                    type="file" name="picture"><br>
+
+                <hr><br>
+                <b>Name in Full:</b>
+                <input type="text" placeholder="Enter your Name" required name="full_name"><br><br>
+                <b>Father's /Husband's Name:</b>
+                <input type="text" placeholder="Enter your Father's/Husband Name" required
+                    name="father_husband_name"><br><br>
+                <b>Name of Guardian's</b>
+                <font size="3"> (if other than father)</b>
+                    <input type="text" placeholder="Name of Guardian's" required name="guardian_name"><br><br>
+                    <b>Date of Birth: <font size="2.5" color="red">(in figure as mentioned in Matriculation
+                            Certificate)</b>
+                </font></b>
+                <input type="date" required name="dob"><br><br>
+                <b>National Identity Card / Smart Card No:</b>
+                <input type="tel" placeholder="NIC / Smart Card No: " required name="nic_smartcard_no"><br><br>
+                <b>Select Gender:</b>
+                <select required name="gender">
+                    <option>Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select><br><br>
+                <b>Religon:</b>
+                <select name="religion" required>
+                    <option value="Muslim">Muslim</option>
+                    <option value="Non-Muslim">Non-Muslim</option>
+                    <option value="Other">Other</option>
+                </select><br><br>
+                <b>Nationality:</b>
+                <input type="text" placeholder="Nationality" required name="nationality"><br><br>
+                <b>Marital Status</font></b>
+                <select required name="marital_status">
+                    <option value="Select">Married</option>
+                    <option value="Select">Single</option>
+                    <option value="Select">Divorced</option>
+                </select> <br><br>
+                <b>Domicile District:</font></b>
+                <select name="domicile_district" required>
+                    <option value="Select">Select</option>
+                    <option value="Select">Badin</option>
+                    <option value="Select">Dadu</option>
+                    <option value="Select">Ghotki</option>
+                    <option value="Select">Hyderabad</option>
+                    <option value="Select">Jamshoro</option>
+                    <option value="Select"> Keamari</option>
+                    <option value="Select">Khairpur</option>
+                    <option value="Select">Karachi Central </option>
+                    <option value="Select">Karachi East </option>
+                    <option value="Select">Karachi South </option>
+                    <option value="Select">Karachi West </option>
+                    <option value="Select">Korangi</option>
+                    <option value="Select">Kashmore</option>
+                    <option value="Select">Larkana</option>
+                    <option value="Select">Matiari</option>
+                    <option value="Select">Malir</option>
+                    <option value="Select">Mirpur Khas</option>
+                    <option value="Select">Naushahro Feroze</option>
+                    <option value="Select">Qambar Shahdadkot</option>
+                    <option value="Select">Sujawal</option>
+                    <option value="Select">Sanghar</option>
+                    <option value="Select">Shaheed Benazirabad</option>
+                    <option value="Select">Shikarpur</option>
+                    <option value="Select">Sukkur</option>
+                    <option value="Select">Tando Allahyar</option>
+                    <option value="Select">Tando Muhammad Khan</option>
+                    <option value="Select">Thatta</option>
+                    <option value="Select">Tharparkar</option>
+                    <option value="Select">Umerkot</option>
+                </select><br><br>
+
+                <b>Mobile NO:</b>
+                <input type="tel" placeholder="Enter your Mobile No" style="width: 12%;" required
+                    name="mobile_no"><br><br>
+                <b>Permanent Address:</b>
+                <input type="text" placeholder="Enter your Permanent Address" style="width: 50%;" required
+                    name="permanent_address"><br><br>
+                <b>Present Address:</b>
+                <input type="text" placeholder="Enter your Present Address" style="width: 50%;" required
+                    name="present_address"><br><Br>
+
+                <hr color="red"><b style="background-color: black; color: white;
+">REQUIRED EDUCATIONAL QUALIFICATION: <font color="red" size="2.5">(Only Matric Science Biology Group): </b>
+                <hr color="red">
+                </font>
+                <b>Degree</b>
+                <select name="degree">
+
+                    <option value="Select">SSC11</option>
+                </select>
+                <b>Passing Year:</b>
+                <input type="date" style="width:8%;" required name="passing_year">
+                <b>Board:</b>
+                <input type="text" placeholder="Enter your Board" name="board">
+                <b>Seat No:
+                    <input type="number" placeholder="Seat No:" style="width:7%;" required name="seat_no"><br><br>
+                    <b>Total Marks:</font></b>
+                    <input type="number" placeholder="Total Marks:" style="width:7%;" required name="total_marks">
+                    <b>Obtain Marks:</font></b>
+                    <input type="number" placeholder="Obtain Marks:" style="width:7%;" required name="obtain_marks">
+                    <b>Grade:</font></b>
+                    <select name="grade" required>
+                        <option value="Select">A+</option>
+                        <option value="Select">A</option>
+                        <option value="Select">B</option>
+                        <option value="Select">C</option>
+                    </select>
+                    <b>Percentage %:</b>
+                    <input type="tel" style="width:5%;" required name="percentage">
+                    <hr>
+        </div>
+        <center>
+            <input type="submit" value="submit" name="submit">
+            <input type="reset" value="cancel">
+        </center>
+    </form>
+
+</body>
+
+</html>
